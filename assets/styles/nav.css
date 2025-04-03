@@ -21,3 +21,21 @@ nav ul li:last-child img {
     height: 40px;
 }
 
+@media (width <= 500px) {
+    #primary-menu {
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+        gap: 4px;
+    }
+
+    nav {
+        padding: 16px;
+    }
+
+    nav ul {
+        gap: 16px;
+        padding-block: 0;
+    }
+}
+

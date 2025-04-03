@@ -12,3 +12,16 @@ main img {
     height: 286px;
     object-fit: cover;
 }
+
+@media (width <= 500px) {
+    main {
+        gap: 16px;
+        padding: 16px;
+    }
+
+    main img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

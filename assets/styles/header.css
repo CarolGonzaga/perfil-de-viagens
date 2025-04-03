@@ -46,3 +46,43 @@ header .container {
     align-items: center;
     gap: 8px;
 }
+
+@media (width <= 500px) {
+       
+    header {
+        padding-block: 0;
+    }
+
+    header .container {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 32px;
+        gap: 32px;
+    }
+
+    #profile {
+        flex-direction: column;
+        justify-content: start;
+        text-align: left;
+        gap: 16px;
+    }
+
+    #profile img {
+        width: 120px;
+        height: 120px;
+        margin-right: auto;
+    }
+
+    #profile>div {
+        max-width: 100%;
+        
+        & h1 {
+            margin-bottom: 8px;
+            font-size: 24px;
+        }
+
+        & p {
+            font-size: 13px;
+        }
+    }
+}
